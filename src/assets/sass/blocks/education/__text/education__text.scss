@@ -1,0 +1,13 @@
+@import "./_left/education__text_left.scss";
+
+.education__text {
+    margin: 1em;
+    background-color: #078c8a51;
+    padding: 1em;
+    transition: 1s;
+
+}
+
+.education__text:hover {
+    transform: scale(1.07);
+}

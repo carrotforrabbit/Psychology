@@ -1,0 +1,12 @@
+@import "./__img/education__img.scss";
+@import "./__text/education__text.scss";
+
+.education {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    text-align: left;
+    font-size: 32px;
+
+}
