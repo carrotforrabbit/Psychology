@@ -9,6 +9,11 @@ body {
   margin-left: 6em;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    margin-left: 2em;
+  }
+}
 .border-radius_color {
   border: 3.5px solid rgba(7, 140, 138, 0.3176470588);
 }
@@ -21,7 +26,7 @@ body {
   text-align: center;
 }
 
-.education__text_left {
+.education__text-left {
   text-align: left;
 }
 
@@ -43,6 +48,12 @@ body {
   font-size: 32px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .education {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .education-gallery__img {
   width: 26vw;
   height: 44vh;
@@ -93,6 +104,11 @@ body {
   justify-items: center;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .title-box_img-none {
+    display: none;
+  }
+}
 .title-box {
   margin-top: 3em;
   text-align: center;
@@ -102,12 +118,25 @@ body {
   text-align: center;
 }
 
-.title_size_m {
+.title_size-m {
   font-size: 48px;
 }
 
-.title_size_s {
+@media (min-width: 320px) and (max-width: 480px) {
+  .title_size-m {
+    font-size: 36px;
+  }
+}
+.title_size-s {
   font-size: 32px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .title_mobile-border {
+    border-top: 4px solid #078C89;
+    border-bottom: 4px solid #078C89;
+    padding: 0.6em;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
