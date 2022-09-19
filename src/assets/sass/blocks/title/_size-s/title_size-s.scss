@@ -2,3 +2,10 @@
     font-size: 32px;
 
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .title_size-s {
+        font-size: 28px;
+
+    }
+}
