@@ -1,0 +1,10 @@
+.title_size-m {
+    font-size: 48px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .title_size-m {
+
+        font-size: 36px;
+    }
+}

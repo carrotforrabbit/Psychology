@@ -1,0 +1,13 @@
+.border-radius_color {
+    border: 3.5px solid #078c8a51;
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    .border-radius_color {
+        border: 3px solid #078c8a51;
+
+    }
+}
