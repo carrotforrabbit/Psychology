@@ -2,18 +2,8 @@
 
 .education__text {
     margin: 1em;
-    background-color: #078c8a51;
+    background-color: $light-green;
     padding: 1em;
     transition: 1s;
 
-}
-
-.education__text:hover {
-    transform: scale(1.07);
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .education__text:hover {
-        transform: none;
-    }
 }
