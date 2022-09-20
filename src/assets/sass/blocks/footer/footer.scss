@@ -1,5 +1,10 @@
 @import "./__icon/_icon";
 @import "./__item/_item";
 @import "./__link/_link";
-@import "./__list/_link";
+@import "./__list/_list";
 
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: $light-grey;
+}

@@ -1,0 +1,21 @@
+@import "./__img/education__img.scss";
+@import "./__text/education__text.scss";
+
+.education {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    text-align: left;
+    font-size: 32px;
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .education {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
