@@ -10,6 +10,7 @@ body {
     width: 98%;
   }
 }
+
 .border-radius_color {
   border: 3.5px solid rgba(7, 140, 138, 0.3176470588);
 }
@@ -19,6 +20,7 @@ body {
     border: 3px solid rgba(7, 140, 138, 0.3176470588);
   }
 }
+
 .border-radius {
   border-radius: 20px;
 }
@@ -47,6 +49,7 @@ body {
     transform: none;
   }
 }
+
 .education {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -61,6 +64,7 @@ body {
     justify-content: center;
   }
 }
+
 .education-gallery__img {
   width: 26vw;
   height: 44vh;
@@ -104,6 +108,7 @@ body {
     transform: none;
   }
 }
+
 .education-gallery {
   margin-left: 1em;
   display: grid;
@@ -121,6 +126,7 @@ body {
     display: none;
   }
 }
+
 .title-box {
   margin-top: 3em;
   text-align: center;
@@ -139,6 +145,7 @@ body {
     font-size: 36px;
   }
 }
+
 .title_size-s {
   font-size: 32px;
 }
@@ -148,6 +155,7 @@ body {
     font-size: 28px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
   .title_mobile-border {
     border-top: 4px solid #078C89;
@@ -155,6 +163,7 @@ body {
     padding: 0.6em;
   }
 }
+
 .title {
   margin: 0;
   padding: 0;
@@ -168,6 +177,7 @@ body {
     font-size: 24px;
   }
 }
+
 .text {
   font-family: inherit;
   font-size: 2rem;
@@ -190,14 +200,17 @@ body {
   margin: 0;
   margin-right: 1rem;
 }
+
 .footer__icon_telephone {
   width: 3.08rem;
   height: 3.3rem;
 }
+
 .footer__icon_telegram {
   width: 3.08rem;
   height: 2.68rem;
 }
+
 .footer__icon_mail {
   width: 3.9rem;
   height: 3.37rem;
