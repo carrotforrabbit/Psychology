@@ -253,10 +253,10 @@ body {
 hr {
   display: block;
   width: 68.75rem;
-  margin: 0 auto;
+  margin: 3.5rem auto;
   background-color: rgb(7, 140, 137);
   border: none;
-  height: 4px;
+  height: 3px;
 }
 
 /*# sourceMappingURL=main.css.map */
