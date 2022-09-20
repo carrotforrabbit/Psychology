@@ -5,18 +5,17 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   body {
-    border: 1px solid salmon;
     margin-left: 0.2em;
     width: 98%;
   }
 }
 .border-radius_color {
-  border: 3.5px solid rgba(7, 140, 138, 0.3176470588);
+  border: 3.5px solid rgba(7, 140, 137, 0.2);
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .border-radius_color {
-    border: 3px solid rgba(7, 140, 138, 0.3176470588);
+    border: 2.5px solid rgba(7, 140, 137, 0.2);
   }
 }
 .border-radius {
@@ -33,20 +32,11 @@ body {
 
 .education__text {
   margin: 1em;
-  background-color: rgba(7, 140, 138, 0.3176470588);
+  background-color: rgba(7, 140, 137, 0.2);
   padding: 1em;
   transition: 1s;
 }
 
-.education__text:hover {
-  transform: scale(1.07);
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .education__text:hover {
-    transform: none;
-  }
-}
 .education {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -116,9 +106,18 @@ body {
   justify-items: center;
 }
 
+.title-box_img-status {
+  max-width: 90%;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
-  .title-box_img-none {
+  .title-box_img-status {
     display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .title-box_img-status {
+    max-width: 90%;
   }
 }
 .title-box {
@@ -136,16 +135,20 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .title_size-m {
+    font-family: inherit;
+    font-weight: 700;
     font-size: 36px;
   }
 }
 .title_size-s {
-  font-size: 32px;
+  font-size: 34px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .title_size-s {
     font-size: 28px;
+    font-family: inherit;
+    font-weight: 700;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -163,18 +166,20 @@ body {
   font-weight: 700;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .text_mobile-size {
-    font-size: 24px;
-  }
-}
 .text {
   font-family: inherit;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 400;
   color: rgb(118, 118, 118);
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .text {
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 400;
+  }
+}
 .services {
   margin: 0 auto;
 }

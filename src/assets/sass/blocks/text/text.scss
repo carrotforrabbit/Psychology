@@ -1,8 +1,15 @@
-@import "./_mobile-size/text_mobile-size.scss";
-
 .text {
     font-family: inherit;
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 400;
     color: $grey;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .text {
+        font-size: 24px;
+        font-family: inherit;
+        font-weight: 400;
+
+    }
 }
