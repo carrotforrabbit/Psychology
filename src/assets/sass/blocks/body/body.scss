@@ -1,13 +1,14 @@
 body {
-    border: 1px solid salmon;
-    width: 87%;
-    margin-left: 6em;
+    margin: 0;
+    padding: 0;
+    // width: 87%;
+    // margin-left: 6em;
 
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     body {
-        border: 1px solid salmon;
+
         margin-left: 0.2em;
         width: 98%;
     }

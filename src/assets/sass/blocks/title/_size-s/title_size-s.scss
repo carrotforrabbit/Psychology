@@ -1,11 +1,12 @@
 .title_size-s {
-    font-size: 32px;
+    font-size: 34px;
 
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     .title_size-s {
         font-size: 28px;
-
+        font-family: inherit;
+        font-weight: 700;
     }
 }

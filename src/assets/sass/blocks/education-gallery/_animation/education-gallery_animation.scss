@@ -5,8 +5,9 @@
 .education-gallery_animation:hover {
     transform: scale(1.2);
 }
-@media (min-width: 320px) and (max-width: 480px){
-.education-gallery_animation:hover {
-    transform: none;
-}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .education-gallery_animation:hover {
+        transform: none;
+    }
 }
