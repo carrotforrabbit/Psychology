@@ -1,0 +1,19 @@
+@import "./__link/_link";
+@import "./__text/_text";
+@import "./__title/_title";
+@import "./__wrapper/_wrapper";
+
+.articles-card {
+    display: grid;
+    max-width: 26rem;
+    margin: 0;
+    margin-right: 1.62rem;
+    padding: 4.56rem 1rem 1.62rem 3.93rem;
+    background-color: $light-grey;
+    border-radius: 20px;
+    text-align: left;
+
+    &_last {
+        margin-right: 0;
+    }
+}
