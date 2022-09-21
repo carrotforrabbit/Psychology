@@ -1,0 +1,22 @@
+.articles-card__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: $mobile-width) {
+    .articles-card__wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+    .articles-card__wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: $tablet-width) and (max-width: $desktop-width) {
+    .articles-card__wrapper {
+        flex-wrap: wrap;
+    }
+}

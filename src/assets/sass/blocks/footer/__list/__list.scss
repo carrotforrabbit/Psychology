@@ -6,3 +6,15 @@
     padding: 3.43rem 11.56rem;
     list-style-type: none;
 }
+
+@media (max-width: $mobile-width) {
+    .footer__list {
+        padding: 2.93rem 4.37rem;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .footer__list {
+        padding: 2.93rem 4.37rem;
+    }
+}
