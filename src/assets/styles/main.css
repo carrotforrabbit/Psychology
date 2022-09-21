@@ -97,6 +97,7 @@ body {
 }
 .education-gallery {
   margin-left: 1em;
+  margin-bottom: 250px;
   display: grid;
   height: 46em;
   grid-template-columns: repeat(6, 1fr);
@@ -181,20 +182,50 @@ body {
     font-weight: 400;
   }
 }
+.services__image {
+  max-height: 1000px;
+}
+
 .services__title {
   display: flex;
   justify-content: center;
   margin-top: 54px;
 }
 
-.services {
-  margin: 0 auto;
+.services__text {
+  display: flex;
+  margin-left: 63px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services__text-title {
+  margin: 0;
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: 600;
+  color: inherit;
 }
 
 .services-block {
   display: flex;
   flex-direction: row;
-  margin: 102px 0 189px 0;
+  margin: 102px 0 130px 0;
+}
+
+.principles__tittle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.principle_description {
+  display: block;
+  margin: 30px auto 83px;
+  padding: 30px 0 30px 60px;
+  max-width: 960px;
+  background-color: rgba(7, 140, 137, 0.2);
+  border-radius: 20px;
 }
 
 .main-container {

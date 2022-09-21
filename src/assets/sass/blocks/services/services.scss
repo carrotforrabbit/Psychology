@@ -1,14 +1,10 @@
 @import "./__image/_image";
 @import "./__title/_title";
 @import "./__text/_text";
-.services {
-    margin: 0 auto;
-}
-
 .services-block {
     display: flex;
     flex-direction: row;
-    margin: 102px 0 189px 0;
+    margin: 102px 0 130px 0;
 }
 
 @media screen and (max-width: 767px) {
