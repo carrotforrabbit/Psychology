@@ -164,6 +164,10 @@ body {
   flex-direction: row;
   margin: 102px 0 189px 0; }
 
+.principles__tittle {
+  display: flex;
+  justify-content: center; }
+
 .main-container {
   display: block;
   margin: 0 auto;
