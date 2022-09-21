@@ -6,3 +6,21 @@ hr {
     border: none;
     height: 3px;
 }
+
+@media (max-width: $mobile-width) {
+    hr {
+        width: 19.12rem;
+    }
+}
+
+@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+    hr {
+        width: 28rem;
+    }
+}
+
+@media (min-width: $tablet-width) and (max-width: $desktop-width) {
+    hr {
+        width: 40rem;
+    }
+}
