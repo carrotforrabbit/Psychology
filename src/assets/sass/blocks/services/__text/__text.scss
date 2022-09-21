@@ -1,6 +1,14 @@
 .services__text {
     display: flex;
-    margin-left: 73px;
+    margin-left: 63px;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.services__text-title {
+    margin: 0;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 600;
+    color: inherit;
 }
