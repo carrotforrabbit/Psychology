@@ -23,6 +23,10 @@ body {
   border-radius: 20px;
 }
 
+.education__img_move {
+  margin-bottom: 0.6em;
+}
+
 .education__img {
   text-align: center;
 }
@@ -31,21 +35,37 @@ body {
   text-align: left;
 }
 
+.education__text_block-size {
+  height: 71%;
+}
+
 .education__text {
   margin: 1em;
   background-color: rgba(7, 140, 137, 0.2);
   padding: 1em;
-  transition: 1s;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .education__text {
+    margin: 0.4em;
+    padding: 1em;
+  }
+}
+.education__block-3 {
+  grid-column: 1/span 2;
+  grid-row: 2/3;
 }
 
 .education {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 41rem;
   text-align: left;
   font-size: 32px;
+  margin-top: 3rem;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 1023px) {
   .education {
     display: flex;
     flex-direction: column;
@@ -97,9 +117,9 @@ body {
 }
 .education-gallery {
   margin-left: 1em;
-  margin-bottom: 250px;
   display: grid;
   height: 46em;
+  height: 48em;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 10px 1fr 1fr;
   column-gap: 3em;
@@ -132,7 +152,7 @@ body {
 }
 
 .title_size-m {
-  font-size: 48px;
+  font-size: 44px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -144,6 +164,7 @@ body {
 }
 .title_size-s {
   font-size: 34px;
+  margin-top: 0;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
