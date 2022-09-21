@@ -74,6 +74,7 @@ body {
     transform: none; } }
 .education-gallery {
   margin-left: 1em;
+  margin-bottom: 250px;
   display: grid;
   height: 46em;
   grid-template-columns: repeat(6, 1fr);
