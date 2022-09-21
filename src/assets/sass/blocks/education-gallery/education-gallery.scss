@@ -5,11 +5,12 @@
 @import "./__item-4/education-gallery__item-4.scss";
 @import "./__item-5/education-gallery__item-5.scss";
 @import "./_animation/education-gallery_animation.scss";
+
 .education-gallery {
     margin-left: 1em;
-    margin-bottom: 250px;
     display: grid;
     height: 46em;
+    height: 48em;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr 10px 1fr 1fr;
     column-gap: 3em;

@@ -1,9 +1,18 @@
 @import "./_left/education__text-left.scss";
+@import "./_block-size/education__text_block-size.scss";
+
 
 .education__text {
     margin: 1em;
     background-color: $light-green;
     padding: 1em;
-    transition: 1s;
 
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .education__text {
+
+        margin: 0.4em;
+        padding: 1em;
+    }
 }
