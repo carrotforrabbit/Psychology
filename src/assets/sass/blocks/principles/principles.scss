@@ -1,10 +1,9 @@
 @import "./__title/_title";
 @import "./__text/_text";
-
 .principle_description {
     display: block;
     margin: 30px auto 83px;
-    padding: 30px 0 30px 60px;
+    padding: 30px 25px 30px 50px;
     max-width: 960px;
     background-color: rgba(7, 140, 137, 0.2);
     @include border-radius;
