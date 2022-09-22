@@ -8,3 +8,10 @@
     background-color: rgba(7, 140, 137, 0.2);
     @include border-radius;
 }
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .principle_description {
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+}
