@@ -6,17 +6,20 @@
 @media (max-width: $mobile-width) {
     .articles-card__wrapper {
         flex-direction: column;
+        justify-content: center;
     }
 }
 
 @media (min-width: $mobile-width) and (max-width: $tablet-width) {
     .articles-card__wrapper {
         flex-direction: column;
+        justify-content: center;
     }
 }
 
 @media (min-width: $tablet-width) and (max-width: $desktop-width) {
     .articles-card__wrapper {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
