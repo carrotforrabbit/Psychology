@@ -273,6 +273,16 @@ body {
   height: 3.37rem;
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  .footer__icon:hover {
+    fill: rgb(7, 140, 137);
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .footer__icon:hover {
+    fill: rgb(7, 140, 137);
+  }
+}
 .footer__item {
   display: flex;
   align-items: center;
@@ -336,7 +346,7 @@ body {
 hr {
   display: block;
   width: 68.75rem;
-  margin: 3.5rem auto;
+  margin: 3rem auto;
   background-color: rgb(7, 140, 137);
   border: none;
   height: 3px;
@@ -374,6 +384,11 @@ hr {
   color: rgb(118, 118, 118);
 }
 
+svg {
+  width: 107px;
+  height: 22px;
+}
+
 .articles-card__text {
   padding: 0;
   margin: 0;
@@ -392,18 +407,25 @@ hr {
 @media (max-width: 480px) {
   .articles-card__wrapper {
     flex-direction: column;
+    justify-content: center;
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
   .articles-card__wrapper {
     flex-direction: column;
+    justify-content: center;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .articles-card__wrapper {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
+.articles-card__link-text {
+  padding-right: 25px;
+}
+
 .articles-card {
   display: grid;
   max-width: 26rem;
@@ -416,6 +438,47 @@ hr {
 }
 .articles-card_last {
   margin-right: 0;
+}
+
+@media (max-width: 480px) {
+  .articles-card {
+    max-width: 18rem;
+    margin-bottom: 5px;
+    margin-right: 0;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .articles-card {
+    max-width: 18rem;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .articles-card {
+    margin-bottom: 10px;
+  }
+}
+.article__image_right {
+  width: 566px;
+  height: 761px;
+}
+
+.article__text {
+  margin-bottom: 50px;
+}
+
+.article__title-wrapper {
+  padding: 40px;
+  background-color: rgba(7, 140, 137, 0.2);
+  border-radius: 20px;
+}
+
+.article__subtitle {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */

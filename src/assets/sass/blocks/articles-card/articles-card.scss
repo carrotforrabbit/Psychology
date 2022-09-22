@@ -2,6 +2,7 @@
 @import "./__text/_text";
 @import "./__title/_title";
 @import "./__wrapper/_wrapper";
+@import "./__link-text/_link-text";
 
 .articles-card {
     display: grid;
@@ -15,5 +16,27 @@
 
     &_last {
         margin-right: 0;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .articles-card {
+        max-width: 18rem;
+        margin-bottom: 5px;
+        margin-right: 0;
+    }   
+}
+
+@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+    .articles-card {
+        max-width: 18rem;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }   
+}
+
+@media (min-width: $tablet-width) and (max-width: $desktop-width) {
+    .articles-card {
+        margin-bottom: 10px;
     }
 }

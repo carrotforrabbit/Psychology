@@ -18,3 +18,15 @@
         height: 3.37rem;
     }
 }
+
+@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+    .footer__icon:hover {
+        fill: $dark-green;
+    }   
+}
+
+@media (min-width: $tablet-width) and (max-width: $desktop-width) {
+    .footer__icon:hover {
+       fill: $dark-green;
+    }
+}
