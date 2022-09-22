@@ -199,6 +199,9 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: inherit; } }
+@media (min-width: 320px) and (max-width: 1023px) {
+  .services__text-description {
+    margin-bottom: 2rem; } }
 .services-block {
   display: flex;
   flex-direction: row;
@@ -208,7 +211,7 @@ body {
   .services-block {
     display: flex;
     flex-direction: column;
-    margin: 1rem 0; } }
+    margin: 1rem 0 0 0; } }
 .principles__tittle {
   display: flex;
   justify-content: center;
