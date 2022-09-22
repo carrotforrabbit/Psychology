@@ -3,3 +3,12 @@
     justify-content: center;
     margin-top: 54px;
 }
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .services__title {
+        display: flex;
+        text-align: center;
+        margin: 0 1rem;
+        font-size: 34px;
+    }
+}
