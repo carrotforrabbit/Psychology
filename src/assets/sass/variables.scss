@@ -13,11 +13,11 @@ $black: rgba(0, 0, 0, 1);
 }
 
 @mixin border-green {
-    border: 3.5px solid $light-green;    
+    border: 3.5px solid $light-green;
 }
 
 // Вьюпорты
 
 $mobile-width: 480px;
 $tablet-width: 768px;
-$desktop-width: 1200px;
+$desktop-width: 1024px;

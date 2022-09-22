@@ -1,0 +1,10 @@
+.about__img-item {
+    margin-left: 2em;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .about__img-item {
+        margin: 4em auto auto auto;
+
+    }
+}

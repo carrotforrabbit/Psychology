@@ -1,5 +1,7 @@
 @import "./_color/border-radius_color.scss";
+@import "./__img/border-radius__img.scss";
 
 .border-radius {
-    border-radius: 20px;
+    border: 3px solid $light-green;
+    border-radius: 20px
 }

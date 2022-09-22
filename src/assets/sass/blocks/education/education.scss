@@ -6,10 +6,10 @@
 
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 41rem;
+    grid-template-rows: 1fr 33rem;
     text-align: left;
-    font-size: 32px;
     margin-top: 3rem;
+
 }
 
 
@@ -17,7 +17,7 @@
 
 @media (min-width: 320px) and (max-width: 1023px) {
     .education {
-
+        margin-top: 1.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;

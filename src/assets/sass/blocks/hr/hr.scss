@@ -1,26 +1,22 @@
 hr {
     display: block;
-    width: 68.75rem;
+    width: 83%;
     margin: 2.5rem auto;
     background-color: $dark-green;
     border: none;
     height: 3px;
 }
 
-@media (max-width: $mobile-width) {
+@media (min-width: 320px) and (max-width: 767px) {
     hr {
+        display: none;
         width: 19.12rem;
     }
 }
 
-@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+@media (min-width: 768px) and (max-width: 1023px) {
     hr {
-        width: 28rem;
-    }
-}
+        width: 73%;
 
-@media (min-width: $tablet-width) and (max-width: $desktop-width) {
-    hr {
-        width: 40rem;
     }
 }
