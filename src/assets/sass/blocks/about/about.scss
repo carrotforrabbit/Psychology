@@ -1,0 +1,10 @@
+@import "./__img-item/about__img-item.scss";
+@import "./__img/about__img.scss";
+@import "./__text/about__text.scss";
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}

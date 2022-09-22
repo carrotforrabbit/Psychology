@@ -1,0 +1,11 @@
+@import "./__link/btn__link.scss";
+
+.btn {
+
+    margin-top: 5em;
+    transition: 1s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
