@@ -1,4 +1,8 @@
-.article__image_right {
+.article__image {
+    @include border-radius;
+
+    &_right {
     width: 566px;
     height: 761px;
+} 
 }
