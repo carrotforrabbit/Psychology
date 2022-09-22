@@ -9,3 +9,11 @@
 .btn:hover {
     transform: scale(1.1);
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .btn {
+
+        margin-top: 4em;
+
+    }
+}

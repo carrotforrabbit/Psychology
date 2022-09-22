@@ -5,13 +5,15 @@
     text-decoration: none;
     text-align: right;
     color: $dark-green;
+    transition: 1s;
 
     &:hover {
-       color: $grey;
+        transform: scale(1.07);
     }
 }
 
 svg {
     width: 107px;
     height: 22px;
+    margin-left: 14em;
 }

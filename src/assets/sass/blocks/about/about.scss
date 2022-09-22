@@ -3,8 +3,17 @@
 @import "./__text/about__text.scss";
 
 .about {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 4em;
 
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
 }

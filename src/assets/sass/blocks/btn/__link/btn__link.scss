@@ -1,7 +1,13 @@
 .btn__link {
-    background-color: rgba(7, 140, 137, 0.2);
+    background-color: $light-green;
     text-decoration: none;
-    color: rgba(7, 140, 137, 1);
+    color: $dark-green;
     padding: 1em;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .btn__link {
+        font-size: 18px;
+    }
 }

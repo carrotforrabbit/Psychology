@@ -1,3 +1,10 @@
 .education__img_move {
-    margin-bottom: 0.6em;
+    margin-bottom: 1.5em;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .education__img_move {
+        margin-bottom: 0;
+
+    }
 }
