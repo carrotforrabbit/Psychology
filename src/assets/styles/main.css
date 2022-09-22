@@ -89,6 +89,7 @@ body {
     transform: none; } }
 .education-gallery {
   margin-left: 1em;
+  margin-bottom: 10em;
   display: grid;
   height: 46em;
   height: 48em;
@@ -158,11 +159,20 @@ body {
 .services__image {
   max-height: 1000px; }
 
+@media (min-width: 320px) and (max-width: 1023px) {
+  .services__image {
+    display: none; } }
 .services__title {
   display: flex;
   justify-content: center;
   margin-top: 54px; }
 
+@media (min-width: 320px) and (max-width: 1023px) {
+  .services__title {
+    display: flex;
+    text-align: center;
+    margin: 0 1rem;
+    font-size: 34px; } }
 .services__text {
   display: flex;
   margin-left: 63px;
@@ -176,11 +186,29 @@ body {
   font-weight: 600;
   color: inherit; }
 
+@media (min-width: 320px) and (max-width: 1023px) {
+  .services__text {
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    justify-content: space-between; } }
+@media (min-width: 320px) and (max-width: 1023px) {
+  .services__text-title {
+    margin: 0;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    color: inherit; } }
 .services-block {
   display: flex;
   flex-direction: row;
   margin: 102px 0 130px 0; }
 
+@media (min-width: 320px) and (max-width: 1023px) {
+  .services-block {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0; } }
 .principles__tittle {
   display: flex;
   justify-content: center;
@@ -189,7 +217,7 @@ body {
 .principle_description {
   display: block;
   margin: 30px auto 83px;
-  padding: 30px 25px 30px 50px;
+  padding: 2em;
   max-width: 960px;
   background-color: rgba(7, 140, 137, 0.2);
   border-radius: 20px; }
