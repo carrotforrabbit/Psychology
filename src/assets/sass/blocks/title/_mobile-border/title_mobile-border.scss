@@ -1,8 +1,10 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .title_mobile-border {
-        border-top: 4px solid #078C89;
-        border-bottom: 4px solid #078C89;
+        border-top: 4px solid $dark-green;
+        border-bottom: 4px solid $dark-green;
         padding: 0.6em;
+
+
 
     }
 }

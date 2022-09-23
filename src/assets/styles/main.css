@@ -22,20 +22,6 @@ body {
   border-radius: 20px;
 }
 
-.education__img_move {
-  margin-bottom: 1.5em;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .education__img_move {
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 481px) and (max-width: 1023px) {
-  .education__img_move {
-    margin-bottom: 0.5em;
-  }
-}
 .education__img {
   text-align: center;
 }
@@ -139,7 +125,6 @@ body {
 }
 .education-gallery {
   margin-left: 1em;
-  margin-bottom: 10em;
   display: grid;
   height: 48em;
   grid-template-columns: repeat(6, 1fr);
@@ -182,12 +167,13 @@ body {
     font-size: 22px;
     font-family: inherit;
     font-weight: 700;
+    text-align: center;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .title_mobile-border {
-    border-top: 4px solid #078C89;
-    border-bottom: 4px solid #078C89;
+    border-top: 4px solid rgb(7, 140, 137);
+    border-bottom: 4px solid rgb(7, 140, 137);
     padding: 0.6em;
   }
 }
@@ -469,6 +455,7 @@ hr {
 
 @media (min-width: 320px) and (max-width: 767px) {
   hr {
+    display: none;
     width: 19.12rem;
   }
 }
@@ -623,20 +610,27 @@ hr {
     margin: 4em auto auto auto;
   }
 }
+@media (min-width: 481px) and (max-width: 768px) {
+  .about__img-item {
+    max-width: 20em;
+    max-height: 25em;
+    margin: 6em auto auto auto;
+  }
+}
 .about__img {
   max-width: 33em;
   max-height: 40em;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .about__img {
     max-width: 16em;
     max-height: 25em;
   }
 }
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .about__img {
-    max-width: 28em;
+    max-width: 25em;
     max-height: 30em;
   }
 }
@@ -663,10 +657,16 @@ hr {
   margin-top: 4em;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .about {
     display: flex;
     flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about {
+    display: flex;
+    flex-direction: row;
   }
 }
 .btn__link {
