@@ -3,10 +3,11 @@
 .principle_description {
     display: block;
     margin: 30px auto 83px;
-    padding: 2em;
+    padding: 1em 2em;
     line-height: 2rem;
-    max-width: 960px;
+    max-width: 40rem;
     background-color: rgba(7, 140, 137, 0.2);
+    text-align: justify;
     @include border-radius;
 }
 
