@@ -8,3 +8,11 @@
 
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .about__img-item {
+        max-width: 20em;
+        max-height: 25em;
+        margin: 6em auto auto auto;
+    }
+}
