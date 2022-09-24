@@ -10,7 +10,7 @@
     }
 }
 
-@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+@media (min-width: $mobile-width) and (max-width: $desktop-width) {
     .article__wrapper {
         display: flex;
         flex-direction: column;
