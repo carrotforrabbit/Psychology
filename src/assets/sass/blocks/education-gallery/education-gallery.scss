@@ -5,10 +5,8 @@
 @import "./__item-4/education-gallery__item-4.scss";
 @import "./__item-5/education-gallery__item-5.scss";
 @import "./_animation/education-gallery_animation.scss";
-
 .education-gallery {
     margin-left: 1em;
-
     display: grid;
     height: 48em;
     grid-template-columns: repeat(6, 1fr);
@@ -18,5 +16,15 @@
     align-items: baseline;
     justify-items: center;
     margin-top: 4em;
+}
 
+@media (min-width: 320px) and (max-width: 1023px) {
+    .education-gallery {
+        margin: 2rem 0 50rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
 }
