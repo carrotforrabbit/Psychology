@@ -8,9 +8,8 @@
 .education-gallery {
     margin-left: 1em;
     display: grid;
-    height: 48em;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 10px 1fr 1fr;
+    grid-template-rows: 1fr 10px 1fr;
     column-gap: 3em;
     row-gap: 1em;
     align-items: baseline;
