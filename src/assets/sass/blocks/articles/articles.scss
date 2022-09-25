@@ -1,8 +1,13 @@
 @import "./__title/_title";
 
 .articles {
-    // display: flex;
-    // justify-content: space-between;
-
     margin-bottom: 6em;
+}
+
+@media (min-width: $mobile-width) and (max-width: $tablet-width) {
+    .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
