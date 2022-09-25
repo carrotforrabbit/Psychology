@@ -66,7 +66,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 1023px) {
   .education-gallery__img {
-    width: 38vh; } }
+    width: 42vh; } }
 .education-gallery__item-1 {
   grid-column: 1/span 2;
   grid-row: 1/2; }
@@ -140,12 +140,12 @@ body {
 
 @media (min-width: 320px) and (max-width: 1023px) {
   .education-gallery {
-    margin: 2rem 0 50rem 0;
+    margin: 2rem 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2rem; } }
+    height: 50%; } }
 .title-box {
   margin-top: 3em;
   text-align: center; }
