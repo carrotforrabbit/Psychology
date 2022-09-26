@@ -2,3 +2,29 @@
 @import "./__info/_info" ;
 @import "./__list/_list" ;
 @import "./__title/_title" ;
+
+.booking-block2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "listt img"
+    "btn img";
+    justify-items: start;
+    margin-left: 135px;
+    margin-bottom: 20px;
+}
+
+
+.booking__list__text{
+    grid-area:listt;
+}
+
+.btn{
+    grid-area:btn;
+}
+
+.booking__image{
+    grid-area:img;
+}
+
