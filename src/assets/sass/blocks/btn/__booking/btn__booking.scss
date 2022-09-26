@@ -1,0 +1,15 @@
+.btn__booking {
+    background-color: $light-green;
+    text-decoration: none;
+    color: $dark-green;
+    padding: 1em;
+    font-size: 20px;
+    display: flex;
+    align-items:flex-start;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .btn__booking {
+        font-size: 18px;
+    }
+}
