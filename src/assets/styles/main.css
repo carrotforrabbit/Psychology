@@ -274,14 +274,13 @@ body {
 .services__title {
   display: flex;
   justify-content: center;
-  margin-top: 54px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
   .services__title {
     display: flex;
     text-align: center;
-    padding: 1rem 2%;
+    padding: 0 2% 1rem 2%;
     font-size: 34px;
   }
 }
@@ -396,14 +395,14 @@ body {
   .main-container {
     display: block;
     margin: 1.5em;
-    margin-top: 100px;
+    margin-top: 115px;
   }
 }
 @media (min-width: 480px) and (max-width: 1024px) {
   .main-container {
     display: block;
     margin: 2.5em;
-    margin-top: 100px;
+    margin-top: 115px;
   }
 }
 .footer__icon {
@@ -497,7 +496,7 @@ body {
 .footer {
   margin-top: 5rem;
   padding: 0;
-  background-color: rgba(238, 238, 238, 0.92);
+  background-color: hsla(0deg, 0%, 93%, 0.92);
 }
 
 hr {
@@ -509,13 +508,13 @@ hr {
   height: 3px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
   hr {
     display: none;
     width: 19.12rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   hr {
     width: 73%;
   }
@@ -531,7 +530,7 @@ hr {
   }
 }
 .articles {
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
@@ -593,6 +592,7 @@ hr {
 
 .articles-card__icon:hover {
   transform: scale(1.07);
+  transition-duration: 0.25s;
 }
 
 .articles-card {
@@ -600,7 +600,7 @@ hr {
   max-width: 19em;
   margin: 0;
   padding: 4.56rem 3rem 1.62rem 3.93rem;
-  background-color: rgba(238, 238, 238, 0.92);
+  background-color: hsla(0deg, 0%, 93%, 0.92);
   text-align: left;
   border-radius: 20px;
 }
@@ -636,7 +636,7 @@ hr {
 }
 
 .article__title-wrapper {
-  padding: 40px;
+  padding: 30px;
   margin-top: 20px;
   background-color: rgba(7, 140, 137, 0.2);
   border-radius: 20px;
@@ -786,17 +786,26 @@ hr {
   list-style: none;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__list {
+    display: none;
+  }
+}
 .header__logo {
+  margin: 0;
   margin-left: 4rem;
+  padding: 0;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .header__logo {
-    margin: 0;
+    margin-left: 0;
     order: 2;
   }
 }
 .header__image {
+  margin: 0;
+  padding: 0;
   width: 77px;
   height: 106px;
 }
@@ -812,6 +821,11 @@ hr {
   background-color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .header {
+    padding-right: 4rem;
+  }
+}
 .booking__info {
   display: flex;
   justify-content: center;
@@ -821,7 +835,6 @@ hr {
 .booking__title {
   display: flex;
   justify-content: center;
-  margin-top: 54px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
@@ -830,6 +843,99 @@ hr {
     text-align: center;
     padding: 1rem 2%;
     font-size: 34px;
+  }
+}
+.hamburger-menu__button {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: hsla(0deg, 0%, 93%, 0.92);
+  z-index: 1;
+}
+
+.hamburger-menu__button > span,
+.hamburger-menu__button > span::before,
+.hamburger-menu__button > span::after {
+  display: block;
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 3px;
+  background-color: rgb(118, 118, 118);
+  transition-duration: 0.25s;
+}
+
+.hamburger-menu__button > span::before {
+  content: "";
+  top: -8px;
+}
+
+.hamburger-menu__button > span::after {
+  content: "";
+  top: 8px;
+}
+
+#hamburger-menu__toggle {
+  opacity: 0;
+}
+
+#hamburger-menu__toggle:checked ~ .hamburger-menu__button > span {
+  transform: rotate(45deg);
+}
+
+#hamburger-menu__toggle:checked ~ .hamburger-menu__button > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#hamburger-menu__toggle:checked ~ .hamburger-menu__button > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#hamburger-menu__toggle:checked ~ .hamburger-menu__list {
+  visibility: visible;
+  left: 0;
+}
+
+.hamburger-menu__item {
+  display: block;
+  padding: 12px 14px;
+  color: rgb(118, 118, 118);
+  transition-duration: 0.25s;
+}
+
+.hamburger-menu__link {
+  text-decoration: none;
+}
+.hamburger-menu__link:hover {
+  color: rgb(0, 0, 0);
+}
+
+.hamburger-menu__list {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style-type: none;
+  text-align: right;
+  background-color: #EEEEEE;
+  transition-duration: 0.25s;
+}
+
+@media (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
   }
 }
 
