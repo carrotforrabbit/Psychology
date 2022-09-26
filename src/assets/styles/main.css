@@ -748,6 +748,21 @@ hr {
     font-size: 18px;
   }
 }
+.btn__booking {
+  background-color: rgba(7, 140, 137, 0.2);
+  text-decoration: none;
+  color: rgb(7, 140, 137);
+  padding: 1em;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .btn__booking {
+    font-size: 18px;
+  }
+}
 .btn {
   margin-top: 5em;
   transition: 1s;
@@ -821,15 +836,39 @@ hr {
   background-color: #ffffff;
 }
 
+.booking__image {
+  max-height: 500px;
+  margin-left: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .booking__image {
+    display: none;
+  }
+  .booking__image-mobile {
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .booking__image-mobile {
+    display: none;
+
 @media (max-width: 768px) {
   .header {
     padding-right: 4rem;
   }
 }
 .booking__info {
-  display: flex;
-  justify-content: center;
-  font-weight: 500;
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-top: 3.5rem;
+  margin-bottom: 3.8rem;
+}
+
+.booking__list__text {
+  line-height: 1.9;
 }
 
 .booking__title {
@@ -845,6 +884,28 @@ hr {
     font-size: 34px;
   }
 }
+
+.booking-block2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "listt img" "btn img";
+  justify-items: start;
+  margin-left: 135px;
+  margin-bottom: 20px;
+}
+
+.booking__list__text {
+  grid-area: listt;
+}
+
+.btn {
+  grid-area: btn;
+}
+
+.booking__image {
+  grid-area: img;
+
 .hamburger-menu__button {
   display: flex;
   align-items: center;
