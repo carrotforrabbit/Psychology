@@ -378,7 +378,7 @@ body {
 }
 .principle_description {
   display: block;
-  margin: 30px auto 83px;
+  margin: 3em auto 83px;
   padding: 1em 2em;
   line-height: 2rem;
   max-width: 40rem;
@@ -893,6 +893,7 @@ hr {
 .booking__title {
   display: flex;
   justify-content: center;
+  border: 1px solid red;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
@@ -903,6 +904,7 @@ hr {
   }
 }
 .booking-block2 {
+  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
