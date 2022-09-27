@@ -3,10 +3,10 @@
 @import "./__block-3/education__block-3.scss";
 
 .education {
+
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 33rem;
-
+    grid-template-rows: 1fr 27rem;
     text-align: left;
     margin-top: 3rem;
 }

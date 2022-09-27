@@ -67,7 +67,7 @@ body {
 .education {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 33rem;
+  grid-template-rows: 1fr 27rem;
   text-align: left;
   margin-top: 3rem;
 }
@@ -177,7 +177,7 @@ body {
   row-gap: 1em;
   align-items: baseline;
   justify-items: center;
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
@@ -191,7 +191,6 @@ body {
   }
 }
 .title-box {
-  margin-top: 3em;
   text-align: center;
 }
 
@@ -208,7 +207,6 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 30px;
-    width: 100%;
   }
 }
 .title_size-s {
@@ -836,6 +834,12 @@ hr {
   background-color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .header {
+    padding-right: 4rem;
+    position: fixed;
+  }
+}
 .booking__image {
   max-height: 500px;
   margin-left: 2rem;
@@ -852,10 +856,6 @@ hr {
 @media (min-width: 1024px) {
   .booking__image-mobile {
     display: none;
-
-@media (max-width: 768px) {
-  .header {
-    padding-right: 4rem;
   }
 }
 .booking__info {
@@ -884,7 +884,6 @@ hr {
     font-size: 34px;
   }
 }
-
 .booking-block2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -905,6 +904,7 @@ hr {
 
 .booking__image {
   grid-area: img;
+}
 
 .hamburger-menu__button {
   display: flex;
