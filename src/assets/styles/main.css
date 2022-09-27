@@ -237,6 +237,22 @@ body {
   font-weight: 700;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+  .title {
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    padding: 0.2em;
+  }
+}
+.title-none {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .title-none {
+    display: block;
+  }
+}
 .text {
   font-family: inherit;
   font-size: 20px;
@@ -278,7 +294,6 @@ body {
   .services__title {
     display: flex;
     text-align: center;
-    padding: 0 2% 1rem 2%;
     font-size: 34px;
   }
 }
@@ -349,13 +364,16 @@ body {
 .principles__tittle {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
   .principles__tittle {
-    margin-bottom: 1rem;
     text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .principles__tittle {
+    display: none;
   }
 }
 @media (min-width: 320px) and (max-width: 1023px) {
@@ -880,7 +898,6 @@ hr {
   .booking__title {
     display: flex;
     text-align: center;
-    padding: 1rem 2%;
     font-size: 34px;
   }
 }

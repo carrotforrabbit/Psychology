@@ -1,12 +1,18 @@
 .principles__tittle {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
     .principles__tittle {
-        margin-bottom: 1rem;
+
         text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .principles__tittle {
+        display: none;
     }
 }
