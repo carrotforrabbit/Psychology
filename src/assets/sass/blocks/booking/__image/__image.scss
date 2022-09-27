@@ -1,12 +1,14 @@
 .booking__image {
     max-height: 500px;
-    margin-left: 2rem;
+
+    margin-left: 8%;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
     .booking__image {
         display: none;
     }
+
     .booking__image-mobile {
         margin-bottom: 1rem;
     }
