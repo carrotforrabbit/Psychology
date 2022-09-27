@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./src/assets/styles/vendor/normalize.css" />
     <link rel="stylesheet" href="./src/assets/styles/main.css" />
     <title>Document</title>
+    <style>
+
+    </style>
+
 </head>
 
 <body>
@@ -60,7 +64,7 @@
         <hr />
         <article class="about">
             <div class="about__text">
-                <h1 class="title_size-m title_mobile-border">Наталья Ковшарь</h1>
+                <h1 class="title_size-m title_mobile-border title">Наталья Ковшарь</h1>
                 <p class="text">
                     Психолог<br />
                     Эмоционально фокусированный терапевт<br />
@@ -73,6 +77,24 @@
             <div class="about__img-item">
                 <img src="./src/assets/images/Natalia.jpg" alt="portrait of Natalia"
                     class="about__img border-radius__img" />
+            </div>
+        </article>
+        <!-- Блок "Обо мне mobile" -->
+        <article class="about-mobile">
+            <h1 class="title_size-m title_mobile-border title">Наталья Ковшарь</h1>
+
+            <img src="./src/assets/images/Natalia.jpg" alt="portrait of Natalia"
+                class="about__img border-radius__img about__img-item" />
+            <p class="text ">
+                Психолог<br />
+                Эмоционально фокусированный терапевт<br />
+                (Counseling Psychology Emotionally Focused Therapist)
+            </p>
+
+            <div class="btn">
+                <a href="telergam.html" target="_blank" class="btn__link border-radius">Оставить заявку</a>
+            </div>
+
             </div>
         </article>
         <!-- Блок услуги -->
@@ -122,10 +144,15 @@
             </div>
         </div>
         <!-- Блок принципы -->
-<section class="principles">
-            <h2 class="principles__tittle title title_mobile-border">
+        <section class="principles">
+            <hr />
+            <h2 class="principles__tittle title title_mobile-border title_center">
                 Основные принципы, которых я придерживаюсь в работе
             </h2>
+            <h2 class="title_center title title_mobile-border title-none">
+                Основные принципы
+            </h2>
+
             <div class="principle_description">
                 <p class="principles__text text">
                     Я применяю только те методы психотерапии, которые подтверждены
@@ -146,48 +173,39 @@
                 </p>
             </div>
         </section>
-      <!-- Блок запись -->
-      <section>
-        <hr id="booking" />
-        <h2 class="booking__title title title_mobile-border">
-          Записаться на сессию
-        </h2>
+        <!-- Блок запись -->
+        <section>
+            <hr />
+            <h2 class="title_center title title_mobile-border">
+                Записаться на сессию
+            </h2>
 
-        <p class="booking__info text">
-          Я провожу очные встречи и онлайн консультации. <br />
-          Очные встречи проходят в Москве, недалеко от м. Китай-город. <br />
-          Цена консультации (55 минут) 4000 руб/60 евро.
-        </p>
+            <p class="booking__info text">
+                Я провожу очные встречи и онлайн консультации. <br />
+                Очные встречи проходят в Москве, недалеко от м. Китай-город. <br />
+                Цена консультации (55 минут) 4000 руб/60 евро.
+            </p>
 
-        <div class="booking-block2">
-          <ul class="booking__list__text text">
-            <li>Сформулируйте запрос</li>
-            <li>
-              Укажите удобный формат встречи <br />
-              (очно или онлайн)
-            </li>
-            <li>
-              Выберите желаемую дату для пробной <br />
-              встречи
-            </li>
-          </ul>
-
-          <div class="btn">
-            <a
-              href="telergam.html"
-              target="_blank"
-              class="btn__booking border-radius"
-              >Записаться</a
-            >
-          </div>
-
-          <img
-            class="booking__image"
-            src="./src/assets/images/booking1.jpg"
-            alt=""
-          />
-        </div>
-      </section>
+            <div class="booking-block2">
+                <div>
+                    <ul class="text booking-block2__text">
+                        <li>Сформулируйте запрос</li><br>
+                        <li>
+                            Укажите удобный формат встречи <br />
+                            (очно или онлайн)
+                        </li><br>
+                        <li>
+                            Выберите желаемую дату для пробной
+                            встречи
+                        </li>
+                    </ul>
+                    <div class="btn btn__booking">
+                        <a href="telergam.html" target="_blank" class="btn__link border-radius">Записаться</a>
+                    </div>
+                </div>
+                <img class="booking__image" src="./src/assets/images/booking1.jpg" alt="books" />
+            </div>
+        </section>
 
         <!-- Блок статьи -->
         <hr />
