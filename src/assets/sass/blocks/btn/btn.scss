@@ -1,7 +1,6 @@
 @import "./__link/btn__link.scss";
 
 .btn {
-
     margin-top: 5em;
     transition: 1s;
 }
@@ -12,8 +11,6 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     .btn {
-
         margin-top: 4em;
-
     }
 }
