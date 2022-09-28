@@ -15,6 +15,10 @@
     background-color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-    
+@media (max-width: $desktop-width) {
+    .header { 
+        padding-right: 4rem;
+        padding-left: 4rem;
+        position: fixed;
+    }
 }

@@ -1,7 +1,8 @@
 @import "./__link/btn__link.scss";
+@import "./__booking/btn__booking.scss";
 
 .btn {
-    margin-top: 5em;
+    margin-top: 4em;
     transition: 1s;
 }
 
@@ -9,8 +10,8 @@
     transform: scale(1.1);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .btn {
-        margin-top: 4em;
+        margin-top: 3em;
     }
 }
