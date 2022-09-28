@@ -48,6 +48,7 @@
 
 @media (min-width: 320px) and (max-width: 1023px) {
     .services__text-description {
+        max-width: none;
         margin-bottom: 2rem;
         text-align: justify;
     }

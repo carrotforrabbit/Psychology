@@ -15,9 +15,10 @@
     background-color: #ffffff;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $desktop-width) {
     .header { 
         padding-right: 4rem;
+        padding-left: 4rem;
         position: fixed;
     }
 }

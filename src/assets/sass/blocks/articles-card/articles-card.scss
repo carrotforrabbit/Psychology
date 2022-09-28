@@ -9,32 +9,21 @@
     display: grid;
     max-width: 19em;
     margin: 0;
+    margin-right: 2rem;
     padding: 4.56rem 3rem 1.62rem 3.93rem;
     background-color: $light-grey;
     text-align: left;
     @include border-radius;
+
+    &_last {
+        margin-right: 0;
+    }
 }
 
-
-
-@media (max-width: $mobile-width) {
+@media (max-width: $desktop-width) {
     .articles-card {
         max-width: 18rem;
         margin-bottom: 2.5em;
         margin-right: 0;
-    }
-}
-
-@media (min-width: $mobile-width) and (max-width: $tablet-width) {
-    .articles-card {
-        max-width: 18rem;
-        margin-bottom: 15px;
-        margin-right: 0;
-    }
-}
-
-@media (min-width: $tablet-width) and (max-width: $desktop-width) {
-    .articles-card {
-        margin-bottom: 10px;
     }
 }
