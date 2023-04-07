@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .faq {
   padding: 3rem 7rem;
 }
@@ -21,4 +24,14 @@
   border: 1px solid $dark-green;
   @include border-radius;
   @include border-green;
+}
+
+@media screen and (max-width: $tablet-width) {
+  .faq {
+    padding: 2rem;
+  }
+  .faq__text {
+    padding: 1rem;
+    text-align: center;
+  }
 }
